@@ -1761,6 +1761,25 @@ main {
 
    /*         section header       */
 
+  .section-header {
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 4.8rem 6rem;
+    margin-bottom: 6rem;
+  }
+
+  .sub-heading {
+    font-size: 2.4rem;
+    line-height: 1.05;
+    font-weight: 700;
+    color: #642bff;
+    padding-left: 2rem;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+
   .header-text {
     width: 60rem;
     height: 75rem;
