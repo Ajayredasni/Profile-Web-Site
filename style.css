@@ -1985,5 +1985,14 @@ main {
     color: #0a66c2;
     transition: all 0.4s;
   }
+
+    /*         section contact        */
+
+  .social-media-icons {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 
